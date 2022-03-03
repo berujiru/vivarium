@@ -44,7 +44,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#page-top" class="page-scroll">Home</a></li>
         <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+        <li><a href="#portfolio" class="page-scroll">Collection</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
       </ul>
     </div>
@@ -65,6 +65,7 @@
     </div>
   </div>
 </header>
+
 <!-- About Section -->
 <div id="about">
   <div class="container">
@@ -73,16 +74,19 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="{{url('/frontend/img/bartender.png')}}" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="{{url('/frontend/img/owner.jpg')}}" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Collection</a> </div>
+          <p>I am Bergel C. just recently married, fairly managing finances but still hasn't found security in my job as an IT. I found joy in drawings and I hope that this hobby will turn into something profitable.</p>
+          <p>Feel free to browse my simple collection, you can support me by buying any of my cupcake world for just few $ on Opensea.</p>
+          <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy</a>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Collection</a>
+      </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- Portfolio Section -->
 <div id="portfolio">
   <div class="container">
@@ -109,110 +113,102 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 forest">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot1.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"><a href="{{url('/frontend/img/lots/lot1.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot1.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot1.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 desert">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot2.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot2.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot2.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot2.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 forest">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot3.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot3.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot3.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot3.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 forest">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot4.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot4.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot4.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot4.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 desert">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot5.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot5.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot5.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot5.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 savannas">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot6.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot6.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot6.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot6.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 savannas">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot7.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot7.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot7.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot7.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 forest">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot8.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot8.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot8.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot8.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 desert">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot9.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot9.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot9.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot9.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 savannas">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot10.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot10.png')}}" title="Buy it on opensea" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Click to Expand</h4>
+                <a href="https://opensea.io/collection/crypto-vivarium" class="btn btn-default btn-lg ">Buy/View on Opensea</a>
               </div>
-              <img src="{{url('/frontend/img/lots/lot10.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 savannas">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot11.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="{{url('/frontend/img/lots/lot11.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 forest">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{{url('/frontend/img/lots/lot12.jpg')}}" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="{{url('/frontend/img/lots/lot12.jpg')}}" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="{{url('/frontend/img/lots/lot10.png')}}" class="img-responsive" alt="Click to Expand"> </a> </div>
           </div>
         </div>
       </div>
@@ -267,6 +263,7 @@
     </div>
   </div>
 </div>
+
 <script type="text/javascript" src="{{url('/frontend/js/jquery.1.11.1.js')}}"></script> 
 <script type="text/javascript" src="{{url('/frontend/js/bootstrap.js')}}"></script> 
 <script type="text/javascript" src="{{url('/frontend/js/SmoothScroll.js')}}"></script> 
